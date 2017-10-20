@@ -3,14 +3,11 @@ height:299px;
 width:245px;
 background-color:rgb(90,92,104);
 border-radius:10px;
-float:right;
+margin:auto;
 }
 
 table{
-margin-top:10px;
-margin-bottom:25px;
-margin-left:5px;
-margin-right:10px;
+margin:auto;
 }
 #editeur{
 background-color:rgb(195,215,152);
@@ -18,9 +15,10 @@ border-radius:10px;
 height:40px;
 width:225px;
 border-color:rgb(90,92,104);
-margin-bottom:5px;
+margin-top:15px;
 font-size:2em;
 text-align:right;
+margin-bottom:10px;
 }
 .chiffre{
 background-color:rgb(61,64,73);
