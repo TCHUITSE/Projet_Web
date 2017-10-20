@@ -1,0 +1,44 @@
+<!Doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8"/>
+		<title> Calculatrice</title>
+		<link rel="stylesheet" href="calculatrice.css"/>
+		<script type="text/javascript" src="calculatrice.js"> </script>
+	</head>
+	<body>
+		<div>
+			<table>
+				<tr>
+				<td colspan="4"><input type="text" disabled id="editeur"/></td>
+				</tr>
+				<tr>
+					<td><input type="button" value="7" class="chiffre"   onclick="recupereValeur(7);"/></td>
+					<td><input type="button" value="8" class="chiffre" onclick="recupereValeur(8);"/></td>
+					<td><input type="button" value="9" class="chiffre" onclick="recupereValeur(9);"/></td>
+					<td><input type="button" value="&divide;" class="symbole" onclick="recupereValeur( '/');" /></td>
+				</tr>
+				<tr>
+					<td><input type="button" value="4" class="chiffre" onclick="recupereValeur(4);" /></td>
+					<td><input type="button" value="5" class="chiffre"  onclick="recupereValeur(5);"/></td>
+					<td><input type="button" value="6" class="chiffre"  onclick="recupereValeur(6);"/></td>
+					<td><input type="button" value="X" class="symbole"  onclick="recupereValeur('*');"/></td>
+				</tr>
+				<tr>
+					<td><input type="button" value="3" class="chiffre" onclick="recupereValeur(3);"/></td>
+					<td><input type="button" value="2" class="chiffre" onclick="recupereValeur(2);" /></td>
+					<td><input type="button" value="1" class="chiffre" onclick="recupereValeur(1);"/></td>
+					<td><input type="button" value="-" class="symbole" onclick="recupereValeur('-');"/></td>
+				</tr>
+				<tr>
+					<td><input type="button" value="0" class="chiffre" onclick="recupereValeur(0);"/></td>
+					<td><input type="button" value="." class="symbole" onclick="recupereValeur('.');"/></td>
+					<td><input type="button" value="=" class="symbole" onclick="egal();"/></td>
+					<td><input type="button" value="+" class="symbole" onclick="recupereValeur('+');"/></td>
+				</tr>
+			</table>
+		</div>
+		
+		
+	</body>
+</html>
